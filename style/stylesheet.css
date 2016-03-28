@@ -1,0 +1,30 @@
+body {
+    background: rgb(39,255,254);
+    font-size: 16px;
+}
+nav.navbar {
+    float: right;
+}
+.navbar a {
+   font-size: 23px; 
+   padding: 10px;
+   display: inline-block
+}
+
+#slides_control > div {
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+img{
+    margin:auto;
+    width: 1200px;
+    max-height: 500px;
+}
+#slides_control {
+    position: relative;
+    width: 1200px;
+    top:20px;
+}
+.carousel-caption {
+    color: green;
+}

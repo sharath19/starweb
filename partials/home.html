@@ -1,0 +1,34 @@
+<div ng-controller="HomePageCtrl" id="slides_control" class="row">
+    <div class="col-xs-12 cols-sm-6 cols-md-12">
+      <carousel interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.image}}" class="img-responsive">
+          <div class="carousel-caption">
+              <h4>{{slide.name}}</h4>
+          </div>
+        </slide>
+      </carousel>
+    </div>
+    <div class="container">
+    <div class="row">
+       <div class="cols=sm-12">
+            <h2>STARweb</h2>
+            <p> STARweb is a website provider that focus on delivering Sustainable, Timely, Affordable and Reliable website development for Non-Profits</p>
+            <ul>
+                <li>
+                    <h4>Sustainable</h4>Since the website provided with able to last for a long time and the clients will be able to make any modifications needed with no technical skills required.
+                </li>
+                <li>
+                    <h4>Timely</h4> As a consequence of our quick processes for website development
+                </li>
+                <li>
+                    <h4>Affordable</h4>Due to our reasonably priced packages, that take into consideration your company's needs.
+                </li>
+                <li>
+                    <h4>Reliable</h4>Because the website will be consistently good in performance.
+                </li>
+            </ul>
+        </div>
+    </div>
+     </div>
+</div> 

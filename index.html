@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>STARweb</title>
+	<script type="text/javascript" src="lib/angularjs/angular.js"></script>
+	<script type="text/javascript" src="lib/angularjs/angular-route.js"></script>
+	<script type="text/javascript" src="lib/angularjs/ui-bootstrap-tpls.js"></script>	
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+	<script type="text/javascript" src="js/controller.js"></script>
+<!--	<base href="/" /> -->
+</head>
+<body class="container">
+	<div class="row">
+		<div class="col-xs-6 col-sm-4 col-md-4">
+			<img ng-src="" />
+		</div>
+		<div class="col-xs-6 col-sm-2 col-md-2">
+			<h1>STARWEB</h1>
+		</div>
+	</div>
+	<div class="row">
+			<nav class="navbar navbar-light bg-faded" style>
+			  <div class="nav navbar-nav">
+			    <a class="nav-item nav-link active" href="#/home">Home <span class="sr-only">(current)</span></a>
+			    <a class="nav-item nav-link" href="#/aboutUs">About Us</a>
+			    <a class="nav-item nav-link" href="#/services">Services</a>
+			    <a class="nav-item nav-link" href="#/samples">Samples</a>
+			   	<a class="nav-item nav-link" href="#/contactUs">contact Us</a>
+			</nav>
+		</div>
+	</div>
+	<div>
+		<ng-view></ng-view>
+	</div>
+</body>
+</html>
